@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-container">
+        <h1>Blog</h1>
+        <div id="buttons">
+            <h3 class="button">Home</h3>
+            <h3 class="button">About</h3>
+            <h3 class="button">Contact</h3>
+        </div>
+    </header>
+
+    <main>
+        <div id="body-container">
+            <section class="articles">
+                <article>
+                    <h2>Blog Post Title</h2>
+                    <p>Content of the first blog post</p>
+                </article>
+            </section>
+            <section class="articles">
+                <article>
+                    <h2>Another Blog Post</h2>
+                    <p>Content of the second blog post</p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <h4>(c) 2023 My Simple Blog</h4>
+    </footer>
+</body>
+</html>
