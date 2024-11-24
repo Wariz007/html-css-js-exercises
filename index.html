@@ -3,51 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal portfolio page</title>
+    <title>Personal Blog page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!--This is the header section-->
-<header>
-    <!--this is the div section that will contain the profile photo, name, and short bio-->
-    <div id="header-background">
-        <!--code for the inner background-->
-        <div id="inner-header">
-            <img id="profile-photo" src="images/profile photo 2.jpg"
-            alt="this is a profile photo">
-            <h1>Your name</h1>
-            <p>Web Developer | Designer | Tech Enthusiast</p>
+    <header id="main-container">
+        <h1>Blog</h1>
+        <div id="buttons">
+            <h3 class="button">Home</h3>
+            <h3 class="button">About</h3>
+            <h3 class="button">Contact</h3>
         </div>
-    </div>
+    </header>
 
-    <!--this is the 2nd div section that will contain the about me and biography-->
     <main>
-        <div id="second-background">
-            <h2>About me</h2>
-            <textarea placeholder="Your biography"></textarea>
-
-        </div>
-
-        <!--this is the 3rd div section that will contain the profile owners works-->
-        <!--This is the main div that will contain divs for the works-->
-        <div id="third-div">
-            <h2>My works</h2>
-            <div id="works-container">
-            <div class="projects">Project 1</div>
-            <div class="projects">Project 2</div>
-            <div class="projects">Project 3</div>
-            </div>
+        <div id="body-container">
+            <section class="articles">
+                <article>
+                    <h2>Blog Post Title</h2>
+                    <p>Content of the first blog post</p>
+                </article>
+            </section>
+            <section class="articles">
+                <article>
+                    <h2>Another Blog Post</h2>
+                    <p>Content of the second blog post</p>
+                </article>
+            </section>
         </div>
     </main>
-
-    <!--Footer section-->
-</header>
-<footer>
-    <div id="footer"> 
-        Contact me at [email address]
-    </div>
-</footer>
-
-    
+    <footer>
+        <h4>(c) 2023 My Simple Blog</h4>
+    </footer>
 </body>
 </html>
